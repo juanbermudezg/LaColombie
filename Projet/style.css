@@ -1,0 +1,176 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #003399;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid;
+    border-color: #003399;
+}
+.logoPrincipal{
+    width: 45%;
+}
+.headerPagePart1{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 25%;
+}
+.headerPagePart2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.tittle{
+    width: 100%;
+}
+.headerPagePart3{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 25%;
+}
+.principalTitle{
+    flex: 1;
+    text-align:left;
+    font-weight: bold;
+}
+header nav {
+    flex: 1;
+    text-align:right;
+}
+header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+header a {
+    font-size: 175%;
+    transition: color 0.2s ease-in-out;
+    color: #FFFFFF ;
+    font-family: 'Times New Roman', Times, serif;
+}
+header a:hover {
+    color: #FFD700;
+    text-decoration:underline;
+}
+.actualPageHeader{
+    font-weight: bold;
+}
+main{
+    padding-top: 15px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 15px;
+}
+main h1{
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+main p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 175%;
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 82%;
+    align-items: center;
+}
+.context, .destination{
+    text-align: center;
+    align-items: center;
+}
+.destination{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.bandera{
+    width: 75%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+.destination li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #808080;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.destination li:hover{
+    border-color: #FFD700;
+}
+.destination li:active{
+    border-color: #FF0000 ;
+}
+.destination h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    .destination h2{
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .destination h2 {
+      font-size: 1.2rem;
+    }
+  }
+.socialMedia{
+    width: 20%;
+    height: 20%
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #808080 ;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+footer p{
+    color: #FFFFFF;
+}
+footer nav {
+    flex: 1;
+    text-align:right;
+  }
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+footer a {
+    transition: color 0.2s ease-in-out;
+    color: #FFFFFF ;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer p{
+    font-weight: bold;
+}
+footer a:hover {
+    color: #FF0000 ;
+    text-decoration:underline;
+}
+.footerPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
