@@ -62,15 +62,38 @@ header a:hover {
     font-weight: bold;
 }
 main{
+    align-items: center;
+    text-align: center;
     padding-top: 15px;
     display: inline-block;
     width: 100%;
     padding-bottom: 15px;
 }
 main h1{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 175%;
+
+
+    align-items: center;
     font-weight: bold;
     font-size: 27px;
     text-align: center;
+}
+.conditionsVOYAGE{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 175%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    align-items: center;
 }
 main p{
     padding-top: 7px;
@@ -78,9 +101,9 @@ main p{
     text-align: center;
     font-size: 1.25em;
     line-height: 175%;
-    padding-left: 9%;
-    padding-right: 9%;
-    width: 82%;
+    margin-left: 15%;
+    margin-right: 15%;
+
     align-items: center;
 }
 .context, .destination{
@@ -173,4 +196,125 @@ footer a:hover {
     justify-content: space-between;
     align-items: center;
     width: 85%;
+}
+.item{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.logoAirline{
+    width: 150px;
+
+}
+.conditionsVOYAGE{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 175%;
+    margin-left: 15%;
+    margin-right: 15%;
+  
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.Contacto{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 175%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   padding-top: 1.5em;
+
+    align-items: center;
+}
+.con{
+    
+    flex-wrap: wrap;
+    width: 500px;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 400px;
+}
+#myCarousel {
+    width: 500px;
+    height: 500px;
+  }
+  #myCarousel .carousel-item img {
+    
+      max-height: 300px;
+    object-fit: contain;
+  }
+  #myCarousel .carousel-caption h3{
+    font-size: small;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-container {
+ 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para la imagen */
+  .image-container img {
+    width: 15%;
+    justify-content: space-between;
+  }
+  .Contacto2{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 175%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   padding-top: 1.5em;
+
+    align-items: center;
+}
+.con2{
+    
+    flex-wrap: wrap;
+    width: 500px;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 500px;
+}
+.con2 h2{
+    font-size: 30px;
 }
